@@ -146,7 +146,6 @@ def send_email(smtp_user, smtp_pass, old_first, new_first, dates, reason):
 
 def main():
     print(f"Start watching. TARGET_DATE={TARGET_DATE} interval={CHECK_INTERVAL_SEC}s")
-    print("Tool đang chạy 24/7 trên Render 🚀")
 
     smtp_user = os.getenv("SMTP_USER")
     smtp_pass = os.getenv("SMTP_PASS")
